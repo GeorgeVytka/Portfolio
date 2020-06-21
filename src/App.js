@@ -1,16 +1,22 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
-import Banner from './Componets/Banner';
+import BannerContainer from './Componets/BannerContainer';
 import NavBar from './Componets/NavBar';
+import About from './Componets/About';
+import './App.css';
+import './fontawesome';
+
+
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
   return (
     <div >
      
-     
-      <Banner />
+    <BannerContainer />
+    <NavBar />
+    <About />
+   
     </div>
   );
 }
