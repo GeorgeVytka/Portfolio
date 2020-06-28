@@ -7,6 +7,7 @@ const Contact = () => {
     <div id="contact" className="mt-5" style={{
       paddingBottom: "45px",
       paddingTop:"45px",
+      borderTop:"5px solid rgba(182, 1, 1, 0.795)",
       backgroundColor: " #252934"}}>
 
 

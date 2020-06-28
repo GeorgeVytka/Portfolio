@@ -7,6 +7,7 @@ const About = () => {
         <div id="about"className="container"  style={{heigth: "300px",
         paddingBottom: "150px",
         
+        
         }}>
 
             <div className="row ">

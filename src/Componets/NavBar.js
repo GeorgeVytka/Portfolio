@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Navbar, Nav,NavDropdown } from "react-bootstrap";
 
 const NavBar = () => {
 
@@ -9,10 +9,26 @@ const NavBar = () => {
 
     return(
       
+
+      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" style={{borderBottom:"5px solid rgba(182, 1, 1, 0.795)"}}>
+  <Navbar.Brand href="#home"><img src="https://img.icons8.com/wired/64/000000/home-office.png"/></Navbar.Brand>
+  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+  <Navbar.Collapse id="responsive-navbar-nav">
+    <Nav className="mr-auto">
+      <Nav.Link  href="#features" style={{color:"white",
+        hover:"red"}}>Home</Nav.Link>
+      <Nav.Link href="#about" style={{color:"white"}}>Skills</Nav.Link>
+      <Nav.Link href="#resume" style={{color:"white"}}>Resume</Nav.Link>
+      <Nav.Link href="#project" style={{color:"white"}}>Projects</Nav.Link>
+      
+    </Nav>
+    
+  </Navbar.Collapse>
+</Navbar>
      
+/*
 
-
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark" style={{
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark" toggleNavKey={1}  style={{
         
           backgroundColor:" #F8F8F8",
           
@@ -77,7 +93,7 @@ paddingLeft:"30px",
     </nav>
 
 
-
+*/
     )
 }
 
