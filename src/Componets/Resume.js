@@ -12,14 +12,18 @@ const Resume = () => {
         
       <div id="resume" style={{
         
-        backgroundColor: "#d6d6d6"
+        backgroundColor: "#d6d6d6",
+        
+        paddingBottom: "100px"
       }}>
       <Container>
-        <h2 className="text-center py-5">
+        <h2 className="text-center py-5 " style={{
+           textDecoration: "underline"
+        }} >
           Resume
          
         </h2>
-        <embed
+        <embed className="shadow"
           src={pdf}
           width="100%"
           height="800px"

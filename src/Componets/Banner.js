@@ -19,7 +19,7 @@ const Banner = () => {
 
     return(
 
-      <div>  
+      <div id="banner">  
         <div className={classes.context}>
       <div className="container-fluid">
       <div className="row ">

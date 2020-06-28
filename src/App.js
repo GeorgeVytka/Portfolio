@@ -5,6 +5,8 @@ import NavBar from './Componets/NavBar';
 import About from './Componets/About';
 import Resume from './Componets/Resume';
 import Education from './Componets/Education';
+import Contanct from './Componets/Contact';
+import Project from './Componets/Projects'
 import './App.css';
 import 'font-awesome/css/font-awesome.min.css';
 
@@ -19,7 +21,8 @@ function App() {
     <NavBar />
     <About />
     <Resume />
-   <Education />
+    <Project />
+   <Contanct />
     </div>
   );
 }

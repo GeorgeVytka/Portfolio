@@ -4,7 +4,7 @@ const About = () => {
 
     return(
         
-        <div className="container"  style={{heigth: "300px",
+        <div id="about"className="container"  style={{heigth: "300px",
         paddingBottom: "150px",
         
         }}>

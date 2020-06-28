@@ -16,7 +16,7 @@ const NavBar = () => {
         
           backgroundColor:" #F8F8F8",
           
-          borderBottom: "1px solid red"
+          borderBottom: "4px solid red"
       
       }} >
      
@@ -34,7 +34,7 @@ const NavBar = () => {
         }}>
 
           <li className="nav-item active " style={{tempStyle}}>
-            <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
+            <a className="nav-link" href="">Home <span className="sr-only">(current)</span></a>
           </li>
           <li className="nav-item active"  style={{
 
@@ -43,7 +43,7 @@ const NavBar = () => {
 
 
               }}>
-            <a className="nav-link" href="#">Features</a>
+            <a className="nav-link" href="#about">Skills</a>
           </li>
           <li className="nav-item active"  style={{
 
@@ -52,7 +52,7 @@ const NavBar = () => {
 
 
                 }}>
-            <a className="nav-link" href="#">Pricing</a>
+            <a className="nav-link" href="#resume">Resume</a>
           </li>
           <li className="nav-item active"  style={{
 
@@ -61,8 +61,17 @@ const NavBar = () => {
 
 
                   }}>
-            <a className="nav-link " href="#">Disabled</a>
+            <a className="nav-link " href="#projects">Projects</a>
           </li>
+          <li className="nav-item active"  style={{
+
+            
+paddingLeft:"30px",
+
+
+}}>
+<a className="nav-link " href="#contact">Contact</a>
+</li>
         </ul>
       </div>
     </nav>
