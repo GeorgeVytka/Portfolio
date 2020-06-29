@@ -8,9 +8,10 @@ const About = () => {
         paddingBottom: "150px",
         
         
+        
         }}>
 
-            <div className="row ">
+            <div className="row  " >
            
            
                         
@@ -23,8 +24,9 @@ const About = () => {
             </div>
             </div>
             
-            <div className="card-columns" style={{
-                marginTop: "80px"
+            <div className="card-columns " style={{
+                marginTop: "80px",
+                paddingLeft: "45px"
             }}>
 
             <div className="card" style={{width: "18rem"}}>

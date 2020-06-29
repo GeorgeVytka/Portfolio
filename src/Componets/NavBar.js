@@ -16,10 +16,10 @@ const NavBar = () => {
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto">
       <Nav.Link  href="#features" style={{color:"white",
-        hover:"red"}}>Home</Nav.Link>
-      <Nav.Link href="#about" style={{color:"white"}}>Skills</Nav.Link>
-      <Nav.Link href="#resume" style={{color:"white"}}>Resume</Nav.Link>
-      <Nav.Link href="#project" style={{color:"white"}}>Projects</Nav.Link>
+        hover:"red"}} className="pl-5">Home</Nav.Link>
+      <Nav.Link href="#about" style={{color:"white"}} className="pl-5">Skills</Nav.Link>
+      <Nav.Link href="#resume" style={{color:"white"}} className="pl-5">Resume</Nav.Link>
+      <Nav.Link href="#projects" style={{color:"white"}} className="pl-5">Projects</Nav.Link>
       
     </Nav>
     

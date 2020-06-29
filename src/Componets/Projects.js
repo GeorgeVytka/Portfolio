@@ -11,7 +11,8 @@ const Projects = () => {
         <div style={{paddingBottom:"50px"}} id="projects">
             <Container> 
                 <h3 className="text-center" style={{paddingBottom: "50px",
-            paddingTop:"30px"}}>
+            paddingTop:"30px",
+            textDecoration: "underline"}}>
                     Projects
                 </h3>
 
@@ -36,7 +37,7 @@ const Projects = () => {
 weather. features include current weather, today’s forecast, apparel suggestions based on the current weather and
 weather alerts.
     </Card.Text>
-    <Button variant="primary">Go somewhere</Button>
+    <Button variant="primary">Code</Button>
   </Card.Body>
                 </Card>
 
@@ -65,7 +66,7 @@ weather alerts.
     Trivia RUSH is a Trivia App for Android available on the Play Store. The app was built as a Software Engineering class
 project. To learn the concepts of Software Engineering and Software Development life cycle
     </Card.Text>
-    <Button variant="primary" href="https://github.com/GeorgeVytka/TriviaGames"  target="_blank">Go somewhere</Button>
+    <Button variant="primary" href="https://github.com/GeorgeVytka/TriviaGames"  target="_blank">Code</Button>
   </Card.Body>
                 </Card>
 

@@ -27,8 +27,8 @@ const Contact = () => {
     <Card.Title className="text-center">Contact Me!</Card.Title>
     
     <Nav variant="pills justify-content-center" >
-      <Nav.Item>
-        <Nav.Link href="#first"><img src="https://img.icons8.com/fluent/64/000000/github.png"/></Nav.Link>
+      <Nav.Item >
+        <Nav.Link href="#first" ><img src="https://img.icons8.com/fluent/64/000000/github.png"/></Nav.Link>
       </Nav.Item>
       <Nav.Item>
         <Nav.Link href="#link"><img src="https://img.icons8.com/ios-filled/64/000000/email.png"/></Nav.Link>

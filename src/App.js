@@ -20,8 +20,9 @@ function App() {
     <BannerContainer />
     <NavBar />
     <About />
-    <Resume />
     <Project />
+    <Resume />
+    
    <Contanct />
     </div>
   );
