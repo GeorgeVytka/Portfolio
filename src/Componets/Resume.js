@@ -12,7 +12,7 @@ const Resume = () => {
         
       <div id="resume" style={{
         
-        backgroundColor: "#d6d6d6",
+        
         
         paddingBottom: "100px"
       }}>

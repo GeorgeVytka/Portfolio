@@ -38,7 +38,7 @@ const Banner = () => {
                         borderColor: "#2E4C80",
                         
                     
-                    }} href="#" role="button">Learn more</a>
+                    }} href="#projects" role="button">Learn more</a>
                   </p>
               </div>
           </div>

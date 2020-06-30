@@ -8,8 +8,13 @@ const Projects = () => {
 
 
     return(
-        <div style={{paddingBottom:"50px"}} id="projects">
+        <div style={{paddingBottom:"50px",
+        backgroundColor: "#d6d6d6"}} id="projects">
             <Container> 
+
+
+
+
                 <h3 className="text-center" style={{paddingBottom: "50px",
             paddingTop:"30px",
             textDecoration: "underline"}}>
@@ -17,10 +22,15 @@ const Projects = () => {
                 </h3>
 
         <Row className="justify-content-around">
-            <Col lg={4}>
-                <Card className="justify-content-around" style={{ width: '18rem' }}>
 
-                <div>
+
+
+            <Col lg={4}>
+
+
+                <Card border="secondary" className="justify-content-around" style={{ width: '18rem' }}>
+
+                <div > 
                 <Card.Img variant="top" src={WhatToWear}/>
                 </div>
                
@@ -48,7 +58,8 @@ weather alerts.
 
 
                 <Col lg={3}>
-                <Card className="justify-content-around" style={{ width: '18rem' }}>
+                  
+                <Card border="secondary" className="justify-content-around" style={{ width: '18rem' }}>
 
                 <Card.Img variant="top" src={TriviaRush}  />
                 <Card.Body>

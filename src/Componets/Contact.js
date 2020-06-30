@@ -1,5 +1,5 @@
 import React from "react";
-import { Container,Nav, Card,Row, Col,Jumbotron,Button } from "react-bootstrap";
+import { Container,Nav, Card,Row, Col,Button } from "react-bootstrap";
 import linkedin from '../img/linkedin.png'
 
 const Contact = () => {
@@ -26,16 +26,16 @@ const Contact = () => {
   <Card.Body>
     <Card.Title className="text-center">Contact Me!</Card.Title>
     
-    <Nav variant="pills justify-content-center" >
+    <Nav variant=" justify-content-center" >
       <Nav.Item >
-        <Nav.Link href="#first" ><img src="https://img.icons8.com/fluent/64/000000/github.png"/></Nav.Link>
+        <Nav.Link href="https://github.com/GeorgeVytka"  target="_blank" ><img src="https://img.icons8.com/fluent/64/000000/github.png" alt="github logo"/></Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link href="#link"><img src="https://img.icons8.com/ios-filled/64/000000/email.png"/></Nav.Link>
+        <Nav.Link href="#link"  target="_blank"><img src="https://img.icons8.com/ios-filled/64/000000/email.png" alt="email logo"/></Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link href="#"> 
-        <img src={linkedin}/>
+        <Nav.Link href="https://www.linkedin.com/in/george-vytka" target="_blank"> 
+        <img src={linkedin}  alt="linkenid logo"/>
         </Nav.Link>
       </Nav.Item>
     </Nav>

@@ -1,19 +1,17 @@
 import React from 'react';
-import { Navbar, Nav,NavDropdown } from "react-bootstrap";
+import { Navbar, Nav } from "react-bootstrap";
 
 const NavBar = () => {
 
-  const tempStyle = {
-    paddingLeft: "30px"
-  }
+  
 
     return(
       
 
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" style={{borderBottom:"5px solid rgba(182, 1, 1, 0.795)"}}>
-  <Navbar.Brand href="#home"><img src="https://img.icons8.com/wired/64/000000/home-office.png"/></Navbar.Brand>
+  <Navbar.Brand href="#home"><img src="https://img.icons8.com/wired/64/000000/home-office.png" alt="computer logo"/></Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-  <Navbar.Collapse id="responsive-navbar-nav">
+  <Navbar.Collapse id="responsive-navbar-nav" >
     <Nav className="mr-auto">
       <Nav.Link  href="#features" style={{color:"white",
         hover:"red"}} className="pl-5">Home</Nav.Link>
